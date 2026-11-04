@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Data and model artifacts
+data/raw/
+data/index/
+models/
+*.faiss
+*.joblib
+
+# Testing
+.pytest_cache/
+
+# Mac
+.DS_Store
