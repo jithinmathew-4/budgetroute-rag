@@ -23,3 +23,37 @@
 - How does Python package importing work?
 - How does pytest discover tests?
 - How do dependencies work?
+
+## Stage 1: Document Ingestion
+
+### Knowledge source
+Scikit-learn documentation.
+
+### Dataset details
+- Format: RST (reStructuredText)
+- Total documents loaded: 220
+- First document: about.rst
+- First document size: 6613 characters
+
+### Implementation
+Created ingest.py containing:
+- Document dataclass
+- load_rst_documents() function
+- Recursive RST file discovery
+- UTF-8 text reading
+- Source metadata
+
+### Testing
+- Recursive file loading
+- Text preservation
+- Missing directory handling
+- Non-RST file exclusion
+- Total tests passed: 5
+
+### Important concepts learned
+- pathlib
+- dataclasses
+- rglob()
+- read_text()
+- Document metadata
+- Unit testing
