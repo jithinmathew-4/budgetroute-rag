@@ -57,3 +57,43 @@ Created ingest.py containing:
 - read_text()
 - Document metadata
 - Unit testing
+## Stage 1: Document Ingestion and Cleaning
+
+### 1. Document ingestion
+
+- Implemented `load_rst_documents()` to load RST files recursively.
+- Used `pathlib.Path` to work with file paths.
+- Used a `Document` dataclass to store the source path and document text.
+- Preserved source metadata for future retrieval and citations.
+- Added error handling for missing directories and invalid paths.
+
+### 2. Text cleaning
+
+- Implemented `remove_rst_roles()` to remove inline RST role markup while preserving visible content.
+- Implemented `normalize_whitespace()` to reduce unnecessary whitespace.
+- Preserved indentation in RST code blocks.
+- Combined cleaning operations in `clean_rst_text()`.
+
+### 3. Testing
+
+- Used pytest to test ingestion and cleaning functions.
+- Tested normal inputs, edge cases and expected errors.
+- Current result: 15 tests passed.
+
+### 4. Important design decisions
+
+- Keep ingestion and cleaning in separate modules.
+- Preserve source information for traceability.
+- Avoid removing meaningful technical content such as code and mathematical expressions.
+- Treat the current cleaner as a first pass, not a complete RST parser.
+
+### 5. Concepts learned
+
+- Dataclasses
+- pathlib
+- Regular expressions
+- Type hints
+- Unit testing
+- Error handling
+- Document metadata
+- RST markup
