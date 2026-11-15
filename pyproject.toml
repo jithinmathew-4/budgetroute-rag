@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A token-efficient, cost-aware RAG system"
 readme = "README.md"
 requires-python = ">=3.11,<3.13"
-dependencies = ["tiktoken>=0.7,<1"]
+dependencies = ["sentence-transformers>=3,<6"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8,<9"]
