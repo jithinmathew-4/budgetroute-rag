@@ -1,0 +1,198 @@
+[
+    {
+        "question": "How does a decision tree classifier work?",
+        "relevant_chunks": [
+            {
+                "source": "modules/tree.rst",
+                "chunk_index": 2
+            },
+            {
+                "source": "modules/tree.rst",
+                "chunk_index": 3
+            }
+        ]
+    },
+    {
+        "question": "How does a decision tree regressor make predictions?",
+        "relevant_chunks": [
+            {
+                "source": "modules/tree.rst",
+                "chunk_index": 6
+            }
+        ]
+    },
+    {
+        "question": "What are decision trees used for?",
+        "relevant_chunks": [
+            {
+                "source": "modules/tree.rst",
+                "chunk_index": 0
+            }
+        ]
+    },
+    {
+        "question": "What are ensemble methods in machine learning?",
+        "relevant_chunks": [
+            {
+                "source": "modules/ensemble.rst",
+                "chunk_index": 0
+            }
+        ]
+    },
+    {
+        "question": "What is gradient boosting?",
+        "relevant_chunks": [
+            {
+                "source": "modules/ensemble.rst",
+                "chunk_index": 1
+            }
+        ]
+    },
+    {
+        "question": "What are the advantages of histogram-based gradient boosting?",
+        "relevant_chunks": [
+            {
+                "source": "modules/ensemble.rst",
+                "chunk_index": 2
+            }
+        ]
+    },
+    {
+        "question": "What are evaluation metrics used for?",
+        "relevant_chunks": [
+            {
+                "source": "modules/model_evaluation.rst",
+                "chunk_index": 0
+            }
+        ]
+    },
+    {
+        "question": "What is the difference between prediction and decision-making?",
+        "relevant_chunks": [
+            {
+                "source": "modules/model_evaluation.rst",
+                "chunk_index": 1
+            },
+            {
+                "source": "modules/model_evaluation.rst",
+                "chunk_index": 2
+            }
+        ]
+    },
+    {
+        "question": "Why should we not train and evaluate a model on the same data?",
+        "relevant_chunks": [
+            {
+                "source": "modules/cross_validation.rst",
+                "chunk_index": 0
+            }
+        ]
+    },
+    {
+        "question": "How does train-test splitting work?",
+        "relevant_chunks": [
+            {
+                "source": "modules/cross_validation.rst",
+                "chunk_index": 1
+            }
+        ]
+    },
+    {
+        "question": "How does k-fold cross-validation evaluate a model?",
+        "relevant_chunks": [
+            {
+                "source": "modules/cross_validation.rst",
+                "chunk_index": 3
+            }
+        ]
+    },
+    {
+        "question": "Why is data preprocessing important?",
+        "relevant_chunks": [
+            {
+                "source": "modules/preprocessing.rst",
+                "chunk_index": 0
+            }
+        ]
+    },
+    {
+        "question": "What does standardization do to numerical features?",
+        "relevant_chunks": [
+            {
+                "source": "modules/preprocessing.rst",
+                "chunk_index": 1
+            },
+            {
+                "source": "modules/preprocessing.rst",
+                "chunk_index": 2
+            }
+        ]
+    },
+    {
+        "question": "What is a machine-learning pipeline?",
+        "relevant_chunks": [
+            {
+                "source": "modules/compose.rst",
+                "chunk_index": 1
+            }
+        ]
+    },
+    {
+        "question": "How can a pipeline combine feature scaling and classification?",
+        "relevant_chunks": [
+            {
+                "source": "modules/preprocessing.rst",
+                "chunk_index": 3
+            }
+        ]
+    },
+    {
+        "question": "What is clustering in unsupervised learning?",
+        "relevant_chunks": [
+            {
+                "source": "modules/clustering.rst",
+                "chunk_index": 0
+            }
+        ]
+    },
+    {
+        "question": "How do clustering algorithms differ in their use cases?",
+        "relevant_chunks": [
+            {
+                "source": "modules/clustering.rst",
+                "chunk_index": 1
+            },
+            {
+                "source": "modules/clustering.rst",
+                "chunk_index": 2
+            }
+        ]
+    },
+    {
+        "question": "What is inertia in K-Means clustering?",
+        "relevant_chunks": [
+            {
+                "source": "modules/clustering.rst",
+                "chunk_index": 4
+            }
+        ]
+    },
+    {
+        "question": "What is Principal Component Analysis (PCA)?",
+        "relevant_chunks": [
+            {
+                "source": "modules/decomposition.rst",
+                "chunk_index": 0
+            }
+        ]
+    },
+    {
+        "question": "How do linear models generate predictions?",
+        "relevant_chunks": [
+            {
+                "source": "modules/linear_model.rst",
+                "chunk_index": 0
+            }
+        ]
+    }
+]

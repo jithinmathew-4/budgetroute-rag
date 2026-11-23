@@ -1,4 +1,5 @@
 
+from budgetroute_rag.mmr import search_chunks_mmr
 import json
 from pathlib import Path
 
@@ -37,12 +38,13 @@ def main():
 
     print("Searching relevant chunks...")
 
-    results = search_chunks(
-        query_embedding,
-        embeddings,
-        chunks,
-        top_k=5,
-    )
+    results = search_chunks_mmr(
+    query_embedding,
+    embeddings,
+    chunks,
+    top_k=5,
+    lambda_param=0.7,
+)
 
     print("\n" + "=" * 55)
     print("             TOP 5 SEARCH RESULTS")
