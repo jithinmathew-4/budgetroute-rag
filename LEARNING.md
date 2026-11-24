@@ -1,4 +1,6 @@
-# BudgetRoute-RAG Learning Log
+# BudgetRoute-RAG: A Cost-Aware Hybrid Retrieval-Augmented Generation System
+
+## Learning Log
 
 ## Day 1: Project Initialization
 

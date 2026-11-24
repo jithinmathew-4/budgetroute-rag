@@ -1,4 +1,4 @@
-# BudgetRoute-RAG
+# BudgetRoute-RAG: A Cost-Aware Hybrid Retrieval-Augmented Generation System
 
 A token-efficient, cost-aware Retrieval-Augmented Generation system.
 
